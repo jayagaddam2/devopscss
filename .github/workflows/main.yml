@@ -10,8 +10,8 @@ jobs:
       uses: codeinspectorio/github-action@master
       with:
         repo_token: secrets.475f43cf6d43474baf08dcd08c2f0b2d69d6f000 
-        code_inspector_access_key: ${{secrets.DMBKNFWZDBBCXLIZBUFW}} 
-        code_inspector_secret_key: ${{ secrets.lLgSFiABtbIyljc8JCq1}}
+        code_inspector_access_key: secrets.DMBKNFWZDBBCXLIZBUFW 
+        code_inspector_secret_key: secrets.lLgSFiABtbIyljc8JCq1
         min_quality_grade: 'WARNING'
         min_quality_score: '50'
         max_defects_rate: '0.0001'
